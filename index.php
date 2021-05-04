@@ -25,8 +25,8 @@
                             <a href="">Início</a>
                             <a href="">Notícias</a>
                             <a href="">Ajuda</a>
-                            <a href="">Cadastrar-se</a>
-                            <a href="">Entrar</a>
+                            <a href="./cadastro.php">Cadastrar-se</a>
+                            <a href="./login.php">Entrar</a>
                         </nav>
                     </div>
                 </div>
