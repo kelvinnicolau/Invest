@@ -8,23 +8,13 @@ body{
 }
 
 .header {
+    background-color: var(--black);
     width: 100vw;
     padding: 3.2rem 0 0;
     color: #f0f0f0;
     position: absolute;
     z-index: 1;
-}
-
-section#section-banner{
-    background-image: url(../img/banner-1.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding-top: 300px;
-    padding-bottom: 99px;
-    min-height: 100vh;
-    overflow: hidden;
-    position: relative;
-    color: #f0f0f0;
+    padding-bottom: 40px;
 }
 
 nav{
@@ -36,8 +26,4 @@ nav a{
     color: white;
     font-size: 16px;
     padding-right: 50px;
-}
-
-section#bloco-1{
-    margin-top: 76px;
 }
