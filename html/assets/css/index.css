@@ -15,6 +15,12 @@ body{
     z-index: 1;
 }
 
+#logo a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+
 section#section-banner{
     background-image: url(../img/banner-1.jpg);
     background-repeat: no-repeat;
