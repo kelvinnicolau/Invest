@@ -46,7 +46,7 @@ body{
     color: white;
 }
 
-#header2 nav a.carteira:visited{
+#header2 nav a.relatorio:visited{
     background-color: var(--black);
     color: white;
 }
@@ -58,23 +58,3 @@ body{
     font-size: 16px;
 }
 
-#carteiras{
-    margin-top: 40px;
-}
-
-#carteiras h2{
-    font-size: 20px;
-    margin-bottom: 10px;
-}
-
-#carteiras h3{
-    font-size: 13px;
-}
-
-#carteiras nav a {
-    text-decoration: none;
-    color: var(--black);
-    font-size: 14px;
-    display: block;
-    padding-bottom: 5px;
-}
