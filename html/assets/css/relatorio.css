@@ -1,10 +1,11 @@
+@import 'https://code.highcharts.com/css/highcharts.css';
+
 :root{
     --black: #282828;
     --cinza: #5E5E5E;
 }
 
 body{
-    overflow: hidden;
     margin: 0;
 }
 
@@ -58,3 +59,16 @@ body{
     font-size: 16px;
 }
 
+/* FOOTER DO SITE */
+
+footer{
+    padding: 50px;
+    margin-top: 100px;
+    background-color: var(--black);
+}
+
+footer p{
+    text-align: right;
+    color: white;
+    font-size: 12px;
+}
