@@ -42,15 +42,40 @@ nav a{
     text-decoration: none;
     color: white;
     font-size: 16px;
-    padding-right: 50px;
+    margin-right: 50px;
 }
 
+nav a:hover{
+    color: white;
+    /* padding-bottom: 10px;
+    border-bottom: 2px solid white;
+    transition: 1s;
+    animation-name: header; */
+}
 
 /* SECTION DOS BLOCOS */
 
 section#bloco-1{
     margin-top: 76px;
 }
+
+/* section#bloco-1 h1#texto-1{
+    animation-name: texto;
+}
+
+@keyframes texto {
+    from {
+      margin-left: 100%;
+      width: 300%
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+} */
+
+
 
 section#bloco-1 img{
     width: 415px;
@@ -62,6 +87,17 @@ section#bloco-1 .preto{
     color: white;
     padding: 25px;
     height: 150px;
+}
+
+/* ANIMAÇÕES BLOCOS */
+
+section#bloco-1 div#bloco{
+    transition: 2s;
+}
+
+section#bloco-1 div#bloco:hover{
+    transition: 2s;
+    transform: scale(1.1);
 }
 
 
