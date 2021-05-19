@@ -47,10 +47,6 @@ nav a{
 
 nav a:hover{
     color: white;
-    /* padding-bottom: 10px;
-    border-bottom: 2px solid white;
-    transition: 1s;
-    animation-name: header; */
 }
 
 /* SECTION DOS BLOCOS */
@@ -58,24 +54,6 @@ nav a:hover{
 section#bloco-1{
     margin-top: 76px;
 }
-
-/* section#bloco-1 h1#texto-1{
-    animation-name: texto;
-}
-
-@keyframes texto {
-    from {
-      margin-left: 100%;
-      width: 300%
-    }
-  
-    to {
-      margin-left: 0%;
-      width: 100%;
-    }
-} */
-
-
 
 section#bloco-1 img{
     width: 415px;
