@@ -97,7 +97,7 @@ section#bloco-1 div#bloco{
 
 section#bloco-1 div#bloco:hover{
     transition: 2s;
-    transform: scale(1.1);
+    transform: scale(1.04);
 }
 
 
