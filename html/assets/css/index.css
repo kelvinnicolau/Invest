@@ -9,7 +9,7 @@ body{
 /* HEADER E BANNER */
 
 .header {
-    width: 100vw;
+    width: 100%;
     padding: 3.2rem 0 0;
     color: #f0f0f0;
     position: absolute;
@@ -56,7 +56,7 @@ section#bloco-1{
 }
 
 section#bloco-1 img{
-    width: 415px;
+    width: 100%;
     height: 300px;
 }
 
@@ -81,10 +81,32 @@ section#bloco-1 div#bloco:hover{
 
 /* SECTION DAS NOTICIAS */
 
+section#noticias div#tela-noticia{
+    text-align: center;
+}
+
 section#noticias img{
     width: 400px;
     height: 300px;
 }
+
+section#noticias img#flecha{
+    margin-top: 100px;
+    width: 100%;
+    height: 30px;
+}
+
+section#noticias img#flecha2{
+    margin-top: 100px;
+    width: 100%;
+    height: 30px;
+    transform: rotate(180deg);
+}
+
+
+
+
+
 
 
 /* FOOTER DO SITE */
