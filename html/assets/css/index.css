@@ -116,6 +116,25 @@ section#noticias img#flecha2{
     transform: rotate(180deg);
 }
 
+/* BLOG 2 */
+
+section#noticias div#tela-noticia2{
+    text-align: center;
+}
+
+section#noticias div#tela-noticia2 h2{
+    margin-top: 10px;
+}
+
+section#noticias div#tela-noticia2 a{
+    text-decoration: none;
+    color: var(--black);
+}
+
+section#noticias div#tela-noticia2 a:hover{
+    color: blue;
+}
+
 
 
 
